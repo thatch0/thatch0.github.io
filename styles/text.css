@@ -1,0 +1,14 @@
+.link {
+    color:#00FF00;
+    background-color: black;
+    font-size: 14px;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier();
+    font-family: Consolas, "Lucida Console", Monaco, monospace;
+}
+
+.link:hover {
+    font-size: 20;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier();
+}
