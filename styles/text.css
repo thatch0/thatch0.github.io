@@ -1,4 +1,4 @@
-.link {
+a {
     color:#00FF00;
     background-color: black;
     border-radius: 2px;
@@ -6,9 +6,10 @@
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier();
     font-family: 'Consolas', monospace;
+    text-decoration: none;
 }
 
-.link:hover {
+a:hover {
     font-size: 20;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier();
