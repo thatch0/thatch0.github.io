@@ -1,0 +1,44 @@
+.clickable {
+    color:#FFFFFF;
+    background-color: #29292961;
+    font-size: 11pt;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier();
+    font-family: 'Consolas', monospace;
+    text-decoration: none;
+    margin: 1%;
+    margin-top: 1%;
+    width: 47%;
+    min-height: 190px;
+    max-height: 200px;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    backdrop-filter: blur(10px);
+    padding:0px;
+}
+
+.clickable:hover {
+    font-size: 11pt;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier();
+    margin: -0.5%;
+    width: 50%;
+    min-height: 200px;
+    height: 60%;
+    box-shadow: 5px;
+}
+
+body {
+    height: 100%;
+    background-image: url(/picture/Untitled.png);
+    display: list-item;
+    background-color: #202020;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+}

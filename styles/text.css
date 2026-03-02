@@ -1,16 +1,32 @@
 a {
     color:#00FF00;
     background-color: black;
-    border-radius: 2px;
-    font-size: 14px;
+    font-size: 11pt;
+    border-radius: 5px;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier();
     font-family: 'Consolas', monospace;
     text-decoration: none;
+    padding: 2px;
 }
 
 a:hover {
-    font-size: 20;
+    font-size: 14pt;
     transition-duration: 0.5s;
     transition-timing-function: cubic-bezier();
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white
+}
+
+.tooltip {
+    font-size: 9;
+    color: rgb(130, 130, 130);
+    margin-top: 2px;
+}
+
+.bg {
+    position: fixed;
 }
