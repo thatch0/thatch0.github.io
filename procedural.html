@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/procedural.css"/>
+    </head>
+    <body>
+        <div class="horizon">
+            <div class="canvas-parent">
+                <canvas id="canvas" height="500" width="600"></canvas>
+            </div>
+        </div>
+        <div class="horizon">
+            <label>dampening:</label>
+            <input id="damp" type="range" min="0" max="1" step="0.05" value="0.15"/>
+        </div>
+        <div class="horizon">
+            <label>steepness:</label>
+            <input id="slope" type="range" min="1" max="60" step="1" value="16"/>
+        </div>
+        <script src="./scripts/procedural.js"></script>
+    </body>
+</html>

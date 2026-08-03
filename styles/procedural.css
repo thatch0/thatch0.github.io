@@ -1,0 +1,25 @@
+.horizon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+html {
+    background-color: #13192c;
+}
+
+.canvas-parent{
+    outline: 5px solid #00FF00;
+}
+
+label {
+    color:#00FF00;
+    font-size: 14pt;
+    font-family: 'Consolas', monospace;
+}
+
+input {
+    background-color: #13192c;
+    accent-color: #00FF00;
+}
